@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     ${DEVICE_PREBUILT}/lib/libaudio.so:system/lib/libaudio.so \
     ${DEVICE_PREBUILT}/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
-    ${DEVICE_PREBUILT}/lib/libasound.so:system/lib/libasound.so \
 
 #copy binaries as needed
 PRODUCT_COPY_FILES += \
@@ -157,7 +156,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
      ${DEVICE_PREBUILT}/lib/libarcsoft.so:system/lib/libarcsoft.so \
-     ${DEVICE_PREBUILT}/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
      ${DEVICE_PREBUILT}/lib/libcamera.so:system/lib/libcamera.so \
      ${DEVICE_PREBUILT}/lib/libjanus.so:system/lib/libjanus.so \
      ${DEVICE_PREBUILT}/lib/libjanus_jni.so:system/lib/libjanus_jni.so \
@@ -165,6 +163,7 @@ PRODUCT_COPY_FILES += \
      ${DEVICE_PREBUILT}/lib/libsmiledetect.so:system/lib/libsmiledetect.so \
      ${DEVICE_PREBUILT}/lib/libtpa.so:system/lib/libtpa.so \
      ${DEVICE_PREBUILT}/lib/libtpa_core.so:system/lib/libtpa_core.so \
+     ${DEVICE_PREBUILT}/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
 
 # wifi
 PRODUCT_COPY_FILES += \
